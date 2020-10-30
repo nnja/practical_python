@@ -18,7 +18,7 @@ You might notice I change my hair color frequently!
 
 ### Stay in touch
 - <a href="https://twitter.com/nnja" target="_blank"><i class='fab fa-twitter'></i> @nnja</a>
-- <a href="https://linkedin.com/nnja" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>
+- <a href="https://linkedin.com/in/nnja" target="_blank"><i class='fab fa-linkedin'></i> LinkedIn</a>
 - <a href="https://github.com/nnja/" target="_blank"><i class='fab fa-github'></i> GitHub</a> where you can find the code for this site and my other projects
 
 I occasionally blog on <a href="https://medium.com/@nnja" target="_blank"><i class='fab fa-medium'></i> Medium</a>, write articles on [dev.to](http://dev.to/nnja), or live code on <a href="https://www.twitch.tv/nnjaio" target="_blank"><i class='fab fa-twitch'></i> Twitch</a>. You can find out more about me on my homepage [nnja.io](https://nnja.io).
