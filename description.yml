@@ -1,0 +1,49 @@
+# Status can be publish, tba, canceled, postponed OR hidden
+Status: tba
+
+StartDate: 2020-10-30
+EndDate: 2020-10-30
+
+Slug: practical-python
+Title: "A Practical Guide to Python"
+Subtitle: Spend A Full Day Immersed in Python with Nina Zakharenko
+
+Teachers:
+  - zakharenko
+
+Excerpt: Practical Python is a one day intensive hands-on workshop designed for intermediate developers looking to become productive coding Python as quickly as possible. By the end of the course, you'll have a solid understanding of Python syntax and best practices, and you'll put your knowledge to use building a fully-functioning web app.
+
+Benefits:
+  - Dive straight into learning Python for maximum productivity.
+  - Learn about Python syntax, libraries, and best practices.
+  - Use functions, object-oriented Python, and modules to structure your code.
+  - Learn to overcome common stumbling blocks.
+  - Finish the course with a fully-functioning web application, complete with unit tests.
+
+Summary: Practical Python leverages your experience as a coder to quickly get you up to speed with writing effective Python. In this single-day training, we'll cover everything you need to know to write and read Python programs. This hands-on workshop will give you a deeper understanding of how Python works instead of just memorizing syntax.
+
+Audience:
+  Overview:
+    This hands-on workshop is for anyone who's already comfortable coding, but wants to get up to speed in Python for maximum productivity. 
+
+  # Optional prerequisite list
+  Prerequisites:
+    - Command line experience in any operating system.
+    - Coding experience in any language, as well as an understanding of concepts like like types, functions, and loops.
+    - Understanding of the basics behind working with APIs -- requests, responses, and HTTP status codes.
+    - Please install Python 3.9, Visual Studio Code, and the Python Extension for Visual Studio Code before class.
+
+Agenda:
+  Schedule:
+    - 0930: Introduction, prerequisite check, learn about what makes Python special
+      0945: Get comfortable in the Python REPL by working with foundational types like numbers, strings, and lists
+      1030: Introduction to working with complex types like sets, tuples, and dictionaries
+      1130: Structure your code with functions, loops, and logic
+      1200: Lunch
+      1300: Slicing, list comprehensions, and working with files
+      1330: Object-oriented Python
+      1430: Libraries and modules
+      1500: Web frameworks, databases, writing tests
+      1630: Wrap up and Q&A
+  # Optional add a note below the agenda
+  # Note: If you want to spice the agenda up with a note

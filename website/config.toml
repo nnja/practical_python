@@ -1,0 +1,35 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Practical Python: A One Day Python Immersion Course by Nina Zakharenko"
+theme = "nnja-theme-learn"
+themesdir = "themes"
+
+ignoreFiles = [ "\\.pyc$",  "__pycache__"]
+
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir = true
+
+[params]
+  themeVariant = "blue"
+  editURL = "https://github.com/nnja/practical_python/edit/master/website/content/"
+  description = "Practical Python A One Day Python Immersion Course by Nina Zakharenko"
+  author = "Nina Zakharenko"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableInlineCopyToClipBoard = true
+  twitter = "nnja"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/nnja/practical_python"
+weight = 10
+
+[markup.goldmark.renderer]
+unsafe = true
