@@ -14,7 +14,7 @@ Lists are one of the most powerful data types in Python. They're used to store r
 | use              	| Used for storing similar items, and in cases where items need to be added or removed. 	|
 | creation         	| `[]` or `list()` for empty list, or `[1, 2, 3]` for a list with items.                            	|
 | search methods   	| `my_list.index(item)` or `item in my_list`                                                                           	|
-| search speed     	| Searching for an item in a large list is slow brcause each item must be checked.                               	|
+| search speed     	| Searching for an item in a large list is slow because each item must be checked.                               	|
 | common methods   	| `len(my_list)`, `append(item)` to add, `insert(index, item)` to insert at `index`, `pop()` to remove.         	|
 | order preserved? 	| Yes. Items can be accessed by index.                                                  	|
 | mutable?         	| Yes                                                                                   	|
@@ -24,7 +24,7 @@ Lists are one of the most powerful data types in Python. They're used to store r
 
 Let's create a few lists to see how they work.
 
-An empty list can be created in two ways. The first, by calling the `list()` method. More commonly, it's created with two empty brackets `[]`. Don't forget to check the type of the list with the `type()` built-in function.
+You can create a list in two ways. The first, by calling the `list()` method. More commonly, you create the list with two empty brackets `[]`. Don't forget to check the type of the list with the `type()` built-in function.
 
 ```python
 >>> list()
@@ -111,7 +111,7 @@ Notice that we can also *optionally* add a trailing comma after the last item. A
 
 #### Sorting a Copy of Your List
 
-If you'd like sort to return a brand new copy of your list, instead of modifying your original copy, you can use the built-in `sorted(my_list)` function on your list to return a *new* `list`, sorted in increasing (ascending) order. Or use `sorted(my_list, reverse=True)` to create a new `list` sorted backwards, in decreasing (or descending) order. This operation will **not modify** the underlying list.
+If you'd like sort to return a brand new copy of your list, instead of modifying your original copy, you can use the built-in `sorted(my_list)` function on your list to return a *new* `list`, sorted in increasing (ascending) order. Or use `sorted(my_list, reverse=True)` to create a new `list` sorted backward, in decreasing (or descending) order. This operation will **not modify** the underlying list.
 
 Either of these operations will return a *new* list.
 
@@ -130,7 +130,7 @@ Either of these operations will return a *new* list.
 
 #### Sorting the list in-place
 
-You can call `my_list.sort()` on your list to sort it in increasing (ascending) order, or `my_list.sort(reverse=True)` on the list to sort it backwards, in decreasing (or descending) order. This operation will modify the underlying list, and *doesn't return a value*.
+You can call `my_list.sort()` on your list to sort it in increasing (ascending) order, or `my_list.sort(reverse=True)` on the list to sort it backward, in decreasing (or descending) order. This operation will modify the underlying list, and *doesn't return a value*.
 
 ```python
 >>> lottery_numbers = [1, 4, 32423, 2, 45, 11]
@@ -165,9 +165,9 @@ Remember, if you ever forget which methods are available on `list`, just call `d
 
 #### Checking Length
 
-Before we add or remove items, it's usually a good idea to check a list's length. We do that with the `len()` built-in function. We can even use the `len()` function to check the lengths of other types, like strings.
+Before we add or remove items, it's usually a good idea to check a list's length. We do that with the `len()` built-in function. We can even use the `len()` function to check other types' lengths, like strings.
 
-Let's see it in action on a names `list` with two items, and a name `str`ing with four characters.
+Let's see it in action on a names `list` with two items and a name `str`ing with four characters.
 
 ```python
 >>> len(names)
@@ -236,7 +236,7 @@ You can also call help on `names.insert`. Because `names` is already of type `li
 
 Looking for items in a list is *slow*. Each item needs to be checked in order to find a match.
 
-This doesn't matter much when you're just getting started, unless your data set is large, or if you're building high-performance systems. If you want to quickly search for an item, you'll need to use a `set` or a `dict`ionary instead.
+This doesn't matter much when you're just getting started, unless your data set is large, or if you're building high-performance systems. If you want to search for an item quickly, you'll need to use a `set` or a `dict`ionary instead.
 
 There are a few ways to determine if an item is in the list, and at which position. Let's try this on our list of names.
 
@@ -305,7 +305,7 @@ Or, when used with `my_list.index(item)`:
 ```
 
 {{% notice info %}}
-You'll see a `IndexError: list assignment index out of range` if you try to update an item in a position that doesn't exist, that is *if the position is greater than or equal to `>=` the length of the list*.
+You'll see an `IndexError: list assignment index out of range` if you try to update an item in a position that doesn't exist, that is *if the position is greater than or equal to `>=` the length of the list*.
 {{% /notice %}}
 
 ```python
