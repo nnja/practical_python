@@ -5,6 +5,6 @@ weight = 5
 chapter = true
 +++
 
-# Course Prerequsites
+# Course Prerequisites
 
 Carefully follow the steps in this section to install Python and other prerequisites.
