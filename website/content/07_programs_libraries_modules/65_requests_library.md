@@ -103,4 +103,4 @@ Here is a list of URLs for dog pictures:
 
 #### More about `requests`
 
-To learn more about the `requests` library *after* class, look at the [quick start](http://docs.python-requests.org/en/master/user/quickstart/).
+To learn more about the `requests` library *after* class, look at the [quick start](https://requests.readthedocs.io/en/latest/user/quickstart/).
