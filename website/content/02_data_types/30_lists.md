@@ -205,7 +205,7 @@ Use `my_list.insert(pos, item)` to insert items in an arbitrary position in the 
 ['Rose', 'Nina', 'Max', 'John']
 ```
 
-You can call `dir()` on our names list to verify that it's actually of type `list`. If you forget which order insert is called in, don't forget you can always use the `help()` function on the REPL. **Remember: Press `q` to quit the help screen.** Let's try it now:
+You can call `type()` on our names list to verify that it's actually of type `list`. If you forget which order insert is called in, don't forget you can always use the `help()` function on the REPL. **Remember: Press `q` to quit the help screen.** Let's try it now:
 
 ```python
 >>> type(names)
