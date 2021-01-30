@@ -149,7 +149,7 @@ True
 
 #### Updating
 
-Just like with `list`s an `set`s, you can add the contents of one dictionary to another with the `update()` method.
+Just like with `list`s and `set`s, you can add the contents of one dictionary to another with the `update()` method.
 
 ```python
 >>> colors = {"r": "Red", "g": "Green"}
