@@ -18,7 +18,7 @@ $ source env/bin/activate
 > .\env\Scripts\Activate
 ```
 
-In either case, you've now created a folder called `venv` that includes a full Python install, and your shell is now set up to call this local Python version when you run the `python` command.
+In either case, you've now created a folder called `env` that includes a full Python install, and your shell is now set up to call this local Python version when you run the `python` command.
 
 #### requirements.txt
 
