@@ -8,8 +8,8 @@ Views and routes allow us to map URLs in our web application to pages, API endpo
 
 Currently, our blog has 3 different sections.
 1. The index at `/` which displays all of our posts.
-1. Detail pages for each blog post, available at / followed by the post slug
-1. A static `about` page in the header.
+2. Detail pages for each blog post, available at / followed by the post slug
+3. A static `about` page in the header.
 
 ### Routes
 
