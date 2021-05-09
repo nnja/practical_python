@@ -71,7 +71,7 @@ Tip: Use this to your advantage when you need to quickly deduplicate the items i
 
 #### `set`s can't contain mutable types
 
-You can consider a set to behave a lot like a dictionary that only contains keys (and no values). The way that `set`s allow you to quickly check if an item is contained in them or not is with an algorithm called a hash. I won't cover the details, but an algorithm is a way of representing an immutable data type with a unique numerical representation. An immutable data type is one where the contents can't be changed after creation.
+You can consider a set to behave a lot like a dictionary that only contains keys (and no values). The way that `set`s allow you to quickly check if an item is contained in them or not is with an algorithm called a hash. I won't cover the details, but a hash is a way of representing an immutable data type with a unique numerical representation. An immutable data type is one where the contents can't be changed after creation.
 
 If you're not sure if a type or an object is hashable, you can call the built-in `hash()` function on it. 
 
