@@ -8,10 +8,10 @@ Once you start writing more comprehensive Python programs, you'll want to includ
 
 The purpose of checking for the `main` method is to make sure that the code in your `main` method is only run when it's executed as a stand-alone program. Because of how Python's import system works, if someone else imports your Python program, any code in it is executed on import.
 
-Let's say we had a Python file named `name_lib.py`
+Let's say we had a Python file named `main_lib.py`
 
 ```python
-# name_lib.py
+# main_lib.py
 
 def name_length(name):
     return len(name)
@@ -32,8 +32,8 @@ print(f"The length is {length} and the uppercase version is: {upper_case}")
 If we ran this code, we'd see exactly what we expect.
 
 ```bash
-(env) $ python name_lib.py
-name_lib.py
+(env) $ python main_lib.py
+main_lib.py
 The length is 4 and the uppercase version is: NINA
 ```
 
@@ -46,12 +46,12 @@ Let's say someone else wrote their own program, in `other_program.py`
 ```python
 # other_program.py
 
-import name_lib
+import main_lib
 
 my_name = "Fred"
 
-my_length = name_lib.name_length(my_name)
-my_lower_case = name_lib.lower_case_name(my_name)
+my_length = main_lib.name_length(my_name)
+my_lower_case = main_lib.lower_case_name(my_name)
 
 print(f"In my code, my length is {my_length} and my lower case name is: {my_lower_case}")
 ```
@@ -79,19 +79,19 @@ Let's unwrap that.
 In Python, `__` is also called double underscore, or *dunder*.
 {{% /notice %}}
 
-Let's comment out our original `print`, and add the following line to the end of `name_lib.py`:
+Let's comment out our original `print`, and add the following line to the end of `main_lib.py`:
 
 ```python
-# Note: add to the bottom of name_lib.py
+# Note: add to the bottom of main_lib.py
 
 # print(f"The length is {length} and the uppercase version is: {upper_case}")
 print(f"The value of __name__ is: {__name__}")
 ```
 
-Now, let's run `name_lib.py` again. We should see:
+Now, let's run `main_lib.py` again. We should see:
 
 ```bash
-(env) $ python name_lib.py
+(env) $ python main_lib.py
 The value of __name__ is: __main__
 ```
 
@@ -101,19 +101,19 @@ What if we run our other program again?
 
 ```bash
 (env) $ python other_program.py
-The value of __name__ is: name_lib
+The value of __name__ is: main_lib
 ```
 
-When we "run" our library by importing it, we'll see that it's `__name__` is set to the name of the file that it's in, minus the `.py` extension. In this case, `__name__` is set to `name_lib`.
+When we "run" our library by importing it, we'll see that it's `__name__` is set to the name of the file that it's in, minus the `.py` extension. In this case, `__name__` is set to `main_lib`.
 
 ### Putting Code in a `main` Conditional
 
 To avoid running our code when it's imported by other modules, we put it in a conditional statement, and explicitly check `if __name__ == "__main__"`.
 
-Let's update `name_lib.py`, and put our own code inside of the conditional check.
+Let's update `main_lib.py`, and put our own code inside of the conditional check.
 
 ```python
-# name_lib.py
+# main_lib.py
 
 def name_length(name):
     return len(name)
