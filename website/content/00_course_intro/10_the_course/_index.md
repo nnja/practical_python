@@ -11,7 +11,7 @@ The course exercises are free and open source. The content of this webpage is li
 ![Edit Page](/00_course_intro/images/edit-page.png?classes=shadow&outline&width=10pc)
 
 {{% notice tip %}}
-All materials are hosted on GitHub, and suggesting changes via Pull Requests are welcome. Just click the Edit this page button on the top right corner of any course page. 
+All materials are hosted on GitHub, and suggesting changes via Pull Requests are welcome. Just click the Edit this page button in the top right corner of any course page. 
 {{% /notice %}}
 
 ### Navigation
