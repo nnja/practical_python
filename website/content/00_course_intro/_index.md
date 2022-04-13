@@ -16,7 +16,7 @@ Ideally, you already know how to program in a different programming language and
 You'll need to have the following skills to get the most out of the course: 
 
 - Command line experience in any operating system.
-- Coding experience in any language, as well as an understanding of concepts like like types, functions, and loops.
+- Coding experience in any language, as well as an understanding of concepts like types, functions, and loops.
 - An understanding of the basics behind working with APIs -- requests, responses, and HTTP status codes.
 
 If you're not comfortable with the skills above, consider trying my two-day course instead that focuses on quickly and productively ramping up beginner developers with Python. Start with [Python Fundamentals](https://frontendmasters.com/courses/python/), and followed by [Intermediate Python](https://frontendmasters.com/courses/intermediate-python/).
