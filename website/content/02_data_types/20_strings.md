@@ -112,7 +112,7 @@ Hello World!
 
 #### Replacing Characters
 
-Strings have a useful function for replacing characters - just call `replace()` on any string and pass in what you want replace, and what you want to replace it with:
+Strings have a useful function for replacing characters - just call `replace()` on any string and pass in what you want to replace, and what you want to replace it with:
 
 ```python
 >>> my_string = "Hello, world!"
