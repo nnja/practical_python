@@ -55,7 +55,7 @@ In the first scenario, you'd like to add a number to a string via concatenation.
 3 Three
 ```
 
-In the second scenario, you'd like to a convert a number that's contained in a string (ex: `"3"`) into an Integer, so you can use it like any other number. In this case, you'd like to convert it to an Integer, with the `int()` method.
+In the second scenario, you'd like to convert a number that's contained in a string (ex: `"3"`) into an Integer, so you can use it like any other number. In this case, you'd like to convert it to an Integer, with the `int()` method.
 
 ```python
 >>> str_num = "3"
