@@ -48,7 +48,7 @@ upper() method of builtins.str instance
 (END)
 ```
 
-Remember to close the `help()` menu by pretting `q`
+Remember to close the `help()` menu by pressing `q`
 
 ### Numbers
 
