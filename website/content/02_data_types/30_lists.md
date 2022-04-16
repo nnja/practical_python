@@ -368,7 +368,7 @@ Using `pop()` will also **return** the item that was in that position. That's us
 ```
 
 {{% notice info %}}
-If we try to pop an item from an index that is longer than or equal to the length of the list, we'll get an `IndexError: pop index out of range`.
+If we try to pop an item from an index that is greater than or equal to the length of the list, we'll get an `IndexError: pop index out of range`.
 {{% /notice %}}
 
 ```python
