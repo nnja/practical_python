@@ -38,7 +38,7 @@ Tip: If you want to test your assumptions about an expression that returns `True
 
 ### Numbers
 
-In Python, the integer `0` is always `False`, while every other number, *including negative numbers*, are `True`. In fact, under the hood, `bool`eans inherit from `int`egers.
+In Python, the integer `0` is always `False`, while every other number, *including negative numbers*, is `True`. In fact, under the hood, `bool`eans inherit from `int`egers.
 
 ```python
 >>> bool(0)
