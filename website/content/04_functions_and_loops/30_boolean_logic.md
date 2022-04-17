@@ -194,7 +194,7 @@ False
 |`is`| *is* the same object in memory? (not equality!)|
 |`is not`| *is not* the same object in memory? (not equality!)|
 
-The `is` keywords tests if the two compared objects are stored in the same memory location. I won't go into too much detail into why, but remember **not** to use `is` when what you actually want to check for is equality.
+The `is` keyword tests if the two compared objects are stored in the same memory location. I won't go into too much detail into why, but remember **not** to use `is` when what you actually want to check for is equality.
 
 {{% notice note %}}
 This is something that trips up Python beginners, so make sure you remember that *equality* (`==`, `!=`) **is not** the same as *identity* (`is`, `not is`).
