@@ -101,7 +101,7 @@ TypeError: unhashable type: 'list'
 
 #### `set`s don't have an order
 
-Sets don't have an order. That means that when you print them, the items won't be displayed in the order they were entered in the list.
+Sets don't have an order. That means that when you print them, the items won't be displayed in the order they were entered in the set.
 
 ```python
 >>> my_set = {1, "a", 2, "b", "cat"}
