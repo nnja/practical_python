@@ -6,7 +6,7 @@ weight = 5
 
 ### Anatomy of a function
 
-Functions allow us to create reusable code and avoid copy and pasting.
+Functions allow us to create reusable code and avoid copying and pasting.
 
 A function in Python is defined with the `def` keyword, followed by the function names, zero or more arguments or named arguments contained in parenthesis `()`, and a colon `:` to indicate the start of the function.
 
