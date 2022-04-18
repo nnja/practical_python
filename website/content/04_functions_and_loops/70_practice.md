@@ -132,7 +132,7 @@ Python also supports boolean operators, although they're a little different than
 |`not x`|Negates the value of `x` (i.e. `True` if `x` is `False`)|
 
 ```python
-# Of course, you can use `and` and `or` aren't limited to two operands
+# Of course, `and` and `or` aren't limited to two operands
 >>> a = False
 >>> b = False
 >>> c = False
