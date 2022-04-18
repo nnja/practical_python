@@ -85,7 +85,7 @@ Hi there.
 
 ### `if` Statements and functions
 
-You can easily declare `if` statements in your functions, you just need to mindful of the level of indentation.
+You can easily declare `if` statements in your functions, you just need to be mindful of the level of indentation.
 
 Notice how the code belonging to the `if` statement is indented at *two levels*.
 
