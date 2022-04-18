@@ -5,7 +5,7 @@ weight = 20
 +++
 
 
-Slicing is a easy way to create sub-lists from larger lists.
+Slicing is an easy way to create sub-lists from larger lists.
 
 If you remember back to our exercise on data types, we can use a slice to obtain a subset of items from a `list`. Remember that a string is just a list of characters.
 
