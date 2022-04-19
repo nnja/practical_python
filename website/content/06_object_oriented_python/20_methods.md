@@ -54,7 +54,7 @@ Why? Because `get_number_of_wheels()` is a class method, and when it's called, t
 
 Python comes with some built-in functions for inspecting classes and types:
 
-As we've seen throughout the workshop, the `type()` function returns the type of the object you pass it, or it's class. For example:
+As we've seen throughout the workshop, the `type()` function returns the type of the object you pass it, or its class. For example:
 
 ```python
 >>> type(42)
