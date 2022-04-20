@@ -26,6 +26,7 @@ class Car(Vehicle):
 
     def __init__(self, make, model, fuel="gas"):
         super().__init__(make, model, fuel)
+
 ```
 
 When we instantiate a Car instance, the interpreter calls `__init__()`, where we pass in two arguments (`make` and `model`) and an optional 3rd (`fuel`, which defaults to "gas"). In `__init__()`, we call `super().__init__()`, which resolves to our parent class, `Vehicle`, and runs *its* `__init__` function, where the variables are stored. Note that even though the variables are stored at the `Vehicle` level, they are instance variables because `self` is bound to `my_car`, which is a `Car`, which is a `Vehicle`. Don't forget to import your Vehicle and Car classes. Behold:
