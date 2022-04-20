@@ -76,7 +76,7 @@ You want to catch Exceptions that are as specific as possible.
 
 ### Using `as` to Access The Exception
 
-You can optionally assign a label to the exception, and the exception will be assigned to the variable you specified, so you can look at it's message, or examine it in other ways, with `except <ExceptionClass> as <variable_name>`.
+You can optionally assign a label to the exception, and the exception will be assigned to the variable you specified, so you can look at its message, or examine it in other ways, with `except <ExceptionClass> as <variable_name>`.
 
 Using this syntax, `variable_name` can be anything. In this case, I picked `error`, but you'll commonly see `e` used for this purpose in Python programs.
 
