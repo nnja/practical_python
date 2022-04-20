@@ -30,7 +30,7 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'a'
 ```
 
-We'll see that "Reached end of the program" was never printed out.
+We'll see that "End of the program." was never printed out.
 
 {{% notice warning %}}
 If we're running our Python code from a file, an uncaught exception will quit the program. Notice our program never reaches "End of the program."
