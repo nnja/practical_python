@@ -206,4 +206,4 @@ class GitHubApiException(Exception):
         super().__init__(message)
 ```
 
-Notice how it takes the HTTP status code into account, and displays a custom error message for the 403 Rate Limited Reached status code.
+Notice how it takes the HTTP status code into account, and displays a custom error message for the 403 Rate Limit Reached status code.
