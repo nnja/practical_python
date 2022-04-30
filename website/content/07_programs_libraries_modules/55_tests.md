@@ -172,7 +172,7 @@ Add this to your test file, run it, and you're off to the races. You can also sk
 Here, you don't need to make your test file runnable (by using `unittest.main()`), instead you're running `unittest` directly and telling it where to find your tests.
 
 {{% notice tip %}}
-Use the `-v` (or `--verbose`) flag can give you more information about which tests were run
+Using the `-v` (or `--verbose`) flag can give you more information about which tests were run
 {{% /notice %}}
 
 
