@@ -68,7 +68,7 @@ def multiply(x, y):
     return x * y
 ```
 
-Easy enough. Let's write a test case for it. Usually this will be broken out into a separate file, but we'll combine them for this contrived example. We'll create a `TestMultiply` class that derives from `unittest.TestCase`, with a method inside that does the actual testing. Lastly, we'll call `unittest.main()` to tell `unittest` to find and run our TestCase. We'll put all this in a file called `test_multiply.py` and run it from the command line:
+Easy enough. Let's write a test case for it. Usually this will be broken out into separate files, but we'll combine them for this contrived example. We'll create a `TestMultiply` class that derives from `unittest.TestCase`, with a method inside that does the actual testing. Lastly, we'll call `unittest.main()` to tell `unittest` to find and run our TestCase. We'll put all this in a file called `test_multiply.py` and run it from the command line:
 
 ```python
 # test_multiply.py
