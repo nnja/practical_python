@@ -32,7 +32,7 @@ We can even make a `datetime` object for an arbitrary date, and subtract it from
 ```python
 >>> new_years = datetime.datetime(2020, 1, 1, 0, 0)
 >>> print(new_years)
-2019-01-01 00:00:00
+2020-01-01 00:00:00
 >>> delta = right_now - new_years
 >>> print(delta)
 302 days, 23:29:53.798740
