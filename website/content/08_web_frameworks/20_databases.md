@@ -37,7 +37,7 @@ You can think of migrations as a map between user-defined models in code and dat
 
 In order for our custom model to be registered by Django, we'll need to do two things:
 1. Register the app in our project, so that Django knows where to look for models
-1. Run a command to make new migrations before running them, so that Django can create database scripts for our custom models.
+2. Run a command to make new migrations before running them, so that Django can create database scripts for our custom models.
 
 First, let's register our app.
 
