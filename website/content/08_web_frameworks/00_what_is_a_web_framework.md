@@ -4,7 +4,7 @@ date = 2020-08-29T17:04:58-07:00
 weight = 1
 +++
 
-Web frameworks are designed to support creating web applications while simplifying and abstracting away a lot of what happens under the hood. They provide a lot of the plumbing for you, allowing you focus building your application itself.
+Web frameworks are designed to support creating web applications while simplifying and abstracting away a lot of what happens under the hood. They provide a lot of the plumbing for you, allowing you to focus on building your application itself.
 
 ### Types of Web Frameworks in Python
 
