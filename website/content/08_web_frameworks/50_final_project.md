@@ -37,8 +37,8 @@ Visit the server at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to make sur
 
 For the final exercise, we're going to:
 1. Sort our blog posts by reverse chronological order
-1. Add an`is_draft` flag that allows you to start working on blog posts but keep them from being seen by readers.
-1. (If time allows) Write additional unit tests to make sure that `is_draft` is working as expected.
+2. Add an`is_draft` flag that allows you to start working on blog posts but keep them from being seen by readers.
+3. (If time allows) Write additional unit tests to make sure that `is_draft` is working as expected.
 
 
 ### Sorting in reverse order
