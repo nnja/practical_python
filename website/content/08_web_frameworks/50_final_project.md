@@ -59,7 +59,7 @@ class Post(models.Model):
 
 Notice a few things:
 1. This is a **nested** class under `Post`, so make sure it's indented properly
-1. `ordering` expects a `tuple`, so don't forget that trailing comma. 
+2. `ordering` expects a `tuple`, so don't forget that trailing comma. 
 
 Make sure your server is running
 
