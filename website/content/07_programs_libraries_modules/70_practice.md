@@ -168,7 +168,7 @@ Run your program.
 
 ### Cleaning Up and Handling Errors
 
-Looking good, we now have a sorted list of the top python, javascript, and ruby repos. Let's do a little bit of clean up and error handling. We might not always want to sort by "stars" or order by "desc", so move those to keyword arguments. That way, they'll be good defaults, but if someone calling our `repos_with_most_stars` function wants to override them, they can.
+Looking good, we now have a sorted list of the top python, javascript, and ruby repos. Let's do a little bit of clean-up and error handling. We might not always want to sort by "stars" or order by "desc", so move those to keyword arguments. That way, they'll be good defaults, but if someone calling our `repos_with_most_stars` function wants to override them, they can.
 
 
 Next, we should handle any errors we might run into with the API. Maybe you've gotten one already. Let's add some basic error handling on the response's HTTP status code. We'll check for a `403`, a common error that GitHub uses to tell you that you're hitting their API too quickly, and `raise` and error. We'll also `raise` an error if the status code is anything but `200` (success).
