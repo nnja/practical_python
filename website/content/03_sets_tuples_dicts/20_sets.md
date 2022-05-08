@@ -137,7 +137,7 @@ Or, you can use the built-in `sorted(sequence)` method, which will do the conver
 
 #### adding to and removing from `set`s
 
-Since a set has no order, we can't add or remove items to it by index.
+Since a set has no order, we can't add or remove items from it by index.
 
 Instead, the operations are called with items.
 
