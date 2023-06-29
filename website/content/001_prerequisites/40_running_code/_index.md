@@ -35,8 +35,8 @@ for greeting in greetings:
 
 You can run Python programs in one of 3 ways:
 1. From VS Code
-1. Directly from the terminal
-1. As a shell script (covered in a later section)
+2. Directly from the terminal
+3. As a shell script (covered in a later section)
 
 #### 1. From VS Code
 
