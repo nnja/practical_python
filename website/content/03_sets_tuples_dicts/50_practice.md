@@ -49,7 +49,7 @@ Let's play with some set operations:
 Tuples are a lightweight way to hold information that describes something, like a person - their name, age, and hometown. You can think about it kind of like a row in a spreadsheet. Tuples are represented inside parentheses, however parentheses are not required to create a tuple, just a sequence of objects followed by commas.
 
 ```python
->>> my_tuple = 1,
+>>> my_tuple = (1,)
 >>> my_tuple
 # Let's add to our tuple
 >>> my_tuple[1] = 2
