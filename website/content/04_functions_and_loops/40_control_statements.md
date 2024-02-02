@@ -231,8 +231,8 @@ You can have as many `elif` statements in your code as you want. They get evalua
 ...     print("Greater than 10")
 ... elif a < 10:
 ...     print("Less than 10")
-... elif a < 20:
-...     print("Less than 20")
+... elif a == 10:
+...     print("exactly 10")
 ... else:
 ...     print("Dunno")
 ...
