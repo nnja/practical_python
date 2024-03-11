@@ -32,7 +32,7 @@ We're going to install these dependencies in our newly created virtual environme
 Note, if you're already in a virtual environment, type `deactivate` or open a new terminal window.
 
 ```bash
-$ python -m venv env
+$ python3 -m venv env
 $ source env/bin/activate
 (env) $ python -m pip install -r requirements.txt
 ```
