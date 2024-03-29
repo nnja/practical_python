@@ -14,7 +14,7 @@ Lists are one of the most powerful data types in Python. They're used to store r
 | use              	| Used for storing similar items, and in cases where items need to be added or removed. 	|
 | creation         	| `[]` or `list()` for empty list, or `[1, 2, 3]` for a list with items.                            	|
 | search methods   	| `my_list.index(item)` or `item in my_list`                                                                           	|
-| search speed     	| Searching for an item in a large list is slow brcause each item must be checked.                               	|
+| search speed     	| Searching for an item in a large list is slow because each item must be checked.                               	|
 | common methods   	| `len(my_list)`, `append(item)` to add, `insert(index, item)` to insert at `index`, `pop()` to remove.         	|
 | order preserved? 	| Yes. Items can be accessed by index.                                                  	|
 | mutable?         	| Yes                                                                                   	|
