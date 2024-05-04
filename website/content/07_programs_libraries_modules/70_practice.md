@@ -9,7 +9,7 @@ weight = 70
 Let's create a basic program that we can run as a file on the command line. We'll start with a basic framework using a `main()` function.
 
 ```python
-# file_execise.py
+# file_exercise.py
 
 def main():
     pass
@@ -25,7 +25,7 @@ What happened? Because you ran the file directly, the file's `__name__` variable
 Let's start filling in our `main()` function. We have a json file named `cities.json` which contains the top five cities in the US, sorted by population. You can [download `cities.json` here](/code/cities.json). Let's open the file and load in the data.
 
 ```python
-# file_execise.py
+# file_exercise.py
 
 import json
 
@@ -41,13 +41,13 @@ if __name__ == "__main__":
 First, we imported the built-in `json` library to help us decode the json file. Then, we opened the file using the `open()` function, and passed the open file handle to the `json.load()` function. The `load()` function read our data in and spit it out as a Python representation - in this case, a list of dictionaries. We then print this list.
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 ```
 
 This list is a little hard to make sense of in its raw form, let's print it a little nicer. Use `enumerate()` to go through the list and print it nicely:
 
 ```python
-# file_execise.py
+# file_exercise.py
 
 import json
 
@@ -67,13 +67,13 @@ if __name__ == "__main__":
 A few new things here: first, remember that `enumerate()` outputs a tuple of (index, entry), so we use `index` and `entry` variables to capture those. Then, for every item in the list, we print the index (+ 1, because zero-indexed lists are sometimes hard to read), and we pull the name and population out of each entry dictionary using the dictionary `[]` syntax.
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 ```
 
 One more thing to clean up - using the `open()` keyword on its own is frowned upon, because it won't automatically close any resources you might open. Even if you call the `close()` keyword yourself, there's no guarantee your program won't crash, leaving important resources dangling. It's safer to open files inside a context using the `with` keyword. Once your code exits the scope of the context, your file is automatically closed. Note: our reading and formatting code has shifted to the right because of the change in scope.
 
 ```python
-# file_execise.py
+# file_exercise.py
 
 import json
 
@@ -96,7 +96,7 @@ if __name__ == "__main__":
 Parsing files - especially if you didn't create them - is often tricky, and you're going to have to deal with less-than-perfect data. For example, go into your `cities.json` file and delete the last `]` character. Run your program again.
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 ```
 
 Helpfully, the library told you (on the last line) approximately what is wrong and where. It also provides a Traceback to help you see what happened, starting with your `main()` function, which called `json.load(cities_file)`, and into the functions used internally to the `json` library. This will become more useful once you start writing your own libraries, so practice reading and understanding your Tracebacks.
@@ -104,7 +104,7 @@ Helpfully, the library told you (on the last line) approximately what is wrong a
 But let's say we're writing a web app or user-facing app and don't want our users to see Tracebacks (they can be scary if you're not a programmer, as well as risk your security by leaking information about your software). Let's catch that `JSONDecodeError` and return something prettier.
 
 ```python
-# file_execise.py
+# file_exercise.py
 
 import json
 
@@ -298,12 +298,12 @@ OK
 {{%expand "Here's what you should have seen on your command line:" %}}
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 [{'name': 'New York', 'pop': 8550405}, {'name': 'Los Angeles', 'pop': 3971883}, {'name': 'Chicago', 'pop': 2720546}, {'name': 'Houston', 'pop': 2296224}, {'name': 'Philadelphia', 'pop': 1567442}]
 ```
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 Largest cities in the US by population:
 1: New York - 8550405
 2: Los Angeles - 3971883
@@ -313,7 +313,7 @@ Largest cities in the US by population:
 ```
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 Largest cities in the US by population:
 1: New York - 8550405
 2: Los Angeles - 3971883
@@ -332,11 +332,11 @@ Delete the last `]` character from your `cities.json` file and run your program 
 {{%expand "Here's what you should have seen on your command line:" %}}
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 Traceback (most recent call last):
-  File "file_execise.py", line 14, in <module>
+  File "file_exercise.py", line 14, in <module>
     main()
-  File "file_execise.py", line 5, in main
+  File "file_exercise.py", line 5, in main
     cities_data = json.load(cities_file)
   File "/usr/local/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 296, in load
     parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
@@ -357,7 +357,7 @@ Now try wrapping the JSON decoding in a `try... except` block.
 {{%expand "Here's what you should have seen on your command line:" %}}
 
 ```bash
-(env) $ python file_execise.py
+(env) $ python file_exercise.py
 Sorry, there was an error decoding that json file:
      Expecting ',' delimiter: line 21 column 1 (char 234)
 The file is now closed.
