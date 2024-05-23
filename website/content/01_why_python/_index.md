@@ -10,4 +10,4 @@ pre = "<b>1. </b>"
 
 # Why Python?
 
-What's the draw of using Python? How's it different from other languages? What advanages does it offer?
+What's the draw of using Python? How's it different from other languages? What advantages does it offer?
