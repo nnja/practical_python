@@ -4,7 +4,7 @@ date = 2020-08-29T16:54:39-07:00
 weight = 20
 +++
 
-A `set` is a mutable datatype that allows you to store **immutable** types in an **unsorted** way. Sets are mutable because you can add and remove items from them. They can contain immmutable items, like `tuple`s and other primitive types, but not `list`s, `set`s, or `dict`ionaries which are themselves mutable.
+A `set` is a mutable datatype that allows you to store **immutable** types in an **unsorted** way. Sets are mutable because you can add and remove items from them. They can contain immutable items, like `tuple`s and other primitive types, but not `list`s, `set`s, or `dict`ionaries which are themselves mutable.
 
 Unlike a list or a tuple, a set can only contain one instance of a unique item. There are no duplicates allowed.
 
